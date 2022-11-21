@@ -1,0 +1,221 @@
+<!doctype html>
+<html lang="fr">
+<head>
+	<meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>GYMFIT GYM ET FITNESS</title>
+    <link href="index.css" rel="stylesheet"/>
+    <!--librairie pour icones-->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/@icon/entypo@1.0.3/entypo.css" rel="stylesheet">
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+<body>
+	<header id="main-header">
+		<img src="img/logo.png" alt="Logo"/>
+		<h1>GYMFIT    GYM & FITNESS</h1>
+	</header>
+        <nav class="navbar navbar-expand-lg " style="background-color:#030207">
+         <a class="navbar-brand" href="#">
+			<img src="img/logo.jpg" alt="Logo"/>
+		</a> 
+         <button class="navbar-toggler bg-white" type="button"  data-toggle="collapse" data-target="#main-nav"aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">    
+			<span class="navbar-toggler-icon"></span>
+         </button>
+         <div class="collapse navbar-collapse justify-content-center" id="main-nav">
+		
+        <ul class="navbar-nav">
+			<li class="nav-item">
+                <a class="nav-link" href="index.html">Accueil </a>
+              </li>
+            <li class="nav-item">
+                <a class="nav-link" href="presentation.html">Présentation </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Formulaire.html">Formulaire Abonnement</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="galerie.html">Galerie</a>
+              </li>
+			  <li class="nav-item">
+				<a class="nav-link" href="Contact.html">Contact</a>
+			  </li>
+		</ul>
+         </div>
+     </nav>     
+     <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+          <img class=img-fluid src="img/suspension.jpg" alt="Texte alternatif"/>
+ <section id="visiter">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+            <div class="flex items-center min-h-screen bg-gray-50 dark:bg-gray-900">
+                <div class="container mx-auto">
+                  <div class="max-w-md mx-auto my-10 bg-white p-5 rounded-md shadow-sm">
+                    <div class="text-center">
+                      <h1 class="my-3 text-3xl font-semibold text-gray-700 dark:text-gray-200">
+                        Contacter Nous
+                      </h1>
+                      <p class="text-gray-400 dark:text-gray-400">
+                        Remplissez le formulaire ci-dessous pour nous envoyer un message.
+                      </p>
+                    </div>
+                    <div class="m-7">
+                      <form action="https://api.web3forms.com/submit" method="POST" id="form">
+                        <input type="hidden" name="access_key" value="YOUR_ACCESS_KEY_HERE" />
+                        <input type="hidden" name="subject" value="New Submission from Web3Forms" />
+                        <input type="checkbox" name="botcheck" id="" style="display: none;" />
+              
+                        <div class="mb-6">
+                          <label for="name" class="block mb-2 text-sm text-gray-600 dark:text-gray-400">Nom complet</label>
+                          <input type="text" name="name" id="name" placeholder="Marc LAVOIX" required class="w-full px-3 py-2 placeholder-gray-300 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300 dark:bg-gray-700 dark:text-white dark:placeholder-gray-500 dark:border-gray-600 dark:focus:ring-gray-900 dark:focus:border-gray-500" />
+                        </div>
+                        <div class="mb-6">
+                          <label for="email" class="block mb-2 text-sm text-gray-600 dark:text-gray-400">Adresse courriel</label>
+                          <input type="email" name="email" id="email" placeholder="vous@société.com" required class="w-full px-3 py-2 placeholder-gray-300 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300 dark:bg-gray-700 dark:text-white dark:placeholder-gray-500 dark:border-gray-600 dark:focus:ring-gray-900 dark:focus:border-gray-500" />
+                        </div>
+                        <div class="mb-6">
+                          <label for="phone" class="text-sm text-gray-600 dark:text-gray-400">Numéro de téléphone</label>
+                          <input type="text" name="phone" id="phone" placeholder="+33  061234567" required class="w-full px-3 py-2 placeholder-gray-300 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300 dark:bg-gray-700 dark:text-white dark:placeholder-gray-500 dark:border-gray-600 dark:focus:ring-gray-900 dark:focus:border-gray-500" />
+                        </div>
+                        <div class="mb-6">
+                          <label for="message" class="block mb-2 text-sm text-gray-600 dark:text-gray-400">Vôtre Message</label>
+              
+                          <textarea rows="5" name="message" id="message" placeholder="Vôtre Message" class="w-full px-3 py-2 placeholder-gray-300 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300 dark:bg-gray-700 dark:text-white dark:placeholder-gray-500 dark:border-gray-600 dark:focus:ring-gray-900 dark:focus:border-gray-500" required></textarea>
+                        </div>
+                        <div class="mb-6">
+                          <button type="submit" class="w-full px-1 py-2 text-black bg-indigo-500 rounded-md focus:bg-indigo-600 focus:outline-none">
+                            Envoyer Message
+                          </button>
+                        </div>
+                        <p class="text-base text-center text-gray-400" id="result"></p>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              </div>
+      <div class="col-lg-6">
+        <div class="infos"><br><br><br>
+        <h2>Infos pratiques</h2><br><br>
+        <p>
+          <span>Adresse :</span><br/>
+          2 Promenade du Bout du Monde<br/>		
+          120 Tataouine les oies
+        </p>
+        <p>
+          <span>Numéro de téléphone :</span><br/>
+          04 41 86 48 77
+        </p>
+        <p>
+          <span>Horaires d'ouverture :</span><br/>
+          Du lundi au dimanche, de 8h00 à 23h00
+        </p>
+        </div>
+    
+        <div class="photo">
+            <img class=img-fluid src="img/default.jpg" alt="Texte alternatif"/>
+        </div>
+      </div>
+</div>
+</div>
+</section>
+<footer class="footer-area">
+    <div class="footer-widget">
+    <div class="container">
+    <div class="row footer-widget-wrapper pt-100 pb-70">
+    <div class="col-md-6 col-lg-4">
+    <div class="footer-widget-box about-us">
+    <a href="#" class="footer-logo">
+    <img src="img/logo.png" alt="">
+    </a>
+    <p class="mb-20">
+        Nous avons beaucoup de variantes de passages disponibles mais la majorité ont subi des altérations sous une forme ou une autre par des mots d’humour injectés qui n’ont même pas l’air un peu crédibles.
+    </p>
+    <ul class="footer-social">
+    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+    <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+    </ul>
+    </div>
+    </div>
+    <div class="col-md-6 col-lg-3">
+    <div class="footer-widget-box">
+    <h4 class="footer-widget-title">Nous contacter</h4>
+    <ul class="footer-contact">
+    <li><i class="fas fa-map-marker-alt"></i>25/B Tataouine les oies</li>
+    <li><a href="tel:+3306547898"><i class="fas fa-phone"></i>+33 0654 7898</a></li>
+    <li><a href="/cdn-cgi/l/email-protection#751c1b131a35100d14180519105b161a18"><i class="far fa-envelope"></i><span class="__cf_email__" data-cfemail="9cf5f2faf3dcf9e4fdf1ecf0f9b2fff3f1">[email&#160;protected]</span></a>
+    </li>
+    <li><i class="far fa-clock"></i>Lun - Dim (08AM - 11PM)</li>
+    </ul>
+    </div>
+    </div>
+    <div class="col-md-6 col-lg-2">
+    <div class="footer-widget-box list">
+    <h4 class="footer-widget-title">Liens Rapides</h4>
+    <ul class="footer-list">
+    <li><a href="#"><i class="fas fa-caret-right"></i> Apropos de nous</a></li>
+    <li><a href="#"><i class="fas fa-caret-right"></i> FAQ's</a></li>
+    <li><a href="#"><i class="fas fa-caret-right"></i> Conditions d'utilisation</a></li>
+    <li><a href="#"><i class="fas fa-caret-right"></i> Politique de confidentialité</a></li>
+    <li><a href="#"><i class="fas fa-caret-right"></i> Nos services</a></li>
+    </ul>
+    </div>
+    </div>
+    <div class="col-md-6 col-lg-3">
+    <div class="footer-widget-box list">
+    <h4 class="footer-widget-title">Newsletter</h4>
+    <div class="footer-newsletter">
+    <p>Abonnez-vous à notre newsletter pour obtenir les dernières mises à jour et nouvelles</p>
+    <div class="subscribe-form">
+    <form action="#">
+    <input type="email" class="form-control" placeholder="Votre Email">
+    <button class="theme-btn" type="submit">
+    <i class="far fa-paper-plane"></i> Abonnez-vous maintenant
+    </button>
+    </form>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    <div class="copyright">
+    <div class="container">
+    <div class="row">
+    <div class="col-lg-6 align-self-center">
+    <p class="copyright-text">
+    &copy; Copyright <span id="date"></span> <a href="#"> GYMFIT </a> All Rights Reserved.
+    </p>
+    </div>
+    <div class="col-lg-6 align-self-center">
+    <ul class="footer-menu">
+    <li><a href="#">Soutien</a></li>
+    <li><a href="#">Conditions d'utilisation</a></li>
+    <li><a href="#">Politique de confidentialité</a></li>
+    </ul>
+    </div>
+    </div>
+    </div>
+    </div>
+    </footer> 
+    <!-- Optional JavaScript -->
+              <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+              <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+              <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+              <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+          </body>
+          </html>  
+              <!-- Optional JavaScript -->
+              <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+              <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+              <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+              <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+          </body>
+          </html>
